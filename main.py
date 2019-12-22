@@ -19,4 +19,5 @@ while True:
         if resps[user]:
             print('\nMei: ' + resps[user])
     except:
+        print('Mei: Eu não Entendi ^^\'')
         continue
