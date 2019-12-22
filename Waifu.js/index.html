@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Waifu em JS :3</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" name="Mensagem" id="msg_texto" />
+        </div>
+        <script>
+            var msg = document.getElementById("msg_texto");
+            msg.onkeypress = function() {
+                keyPressed = keyboardElement("keypress");
+                if(keyPressed.key === "13") {
+                    alert("Enter pressinado!");
+                }
+            }
+        </script>
+    </body>
+</html>
